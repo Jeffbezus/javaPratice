@@ -8,6 +8,8 @@ import java.time.format.DateTimeFormatter;
 
 public class DateTimeFormater {
 	public static void main(String[] args) {
+		//docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+
 		LocalDate d01 = LocalDate.parse("2022-11-25");
 		LocalDateTime d02 = LocalDateTime.parse("2022-07-25T01:45:23");
 		Instant d03 = Instant.parse("2022-11-25T02:35:15Z");
